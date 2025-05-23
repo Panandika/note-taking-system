@@ -1,0 +1,89 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Tech Stack Learning Assistant Guide (llm.txt)
+
+## USER CONTEXT
+**Project Goal**: Build a note-taking app with Python/Django (backend), React (frontend), and Supabase (database/auth).  
+**Current Skills**: Intermediate Python, Basic Supabase.  
+**Learning Focus**: Django, Django REST Framework, React integration, Supabase RLS, JWT/authentication flows.
+
+---
+
+## TECH STACK BREAKDOWN
+
+### Backend
+- **Django**: Focus on models, views, ORM, migrations.  
+- **Django REST Framework**: Serializers, ViewSets, permissions.  
+- **Key Concepts**: REST API design, JWT authentication, CORS setup.
+
+### Database
+- **Supabase PostgreSQL**: Connection configuration, RLS policies.  
+- **Key Concepts**: Django-Supabase integration, Psycopg2, database optimization.
+
+### Frontend
+- **React**: Components, state management (useState/Context/Redux), API calls (axios/fetch).  
+- **Quill.js**: Delta format handling, sanitization with DOMPurify.  
+- **Key Concepts**: Rich text editor integration, JWT token storage.
+
+### Authentication
+- **Options**: Supabase Auth vs Django REST Simple JWT.  
+- **Key Concepts**: Token validation, session management, social login flows.
+
+### Deployment
+- **Docker**: Containerization of Django app.  
+- **Railway/Netlify**: Deployment pipelines, environment variables.  
+
+---
+
+## LEARNING PRIORITIES
+1. Django models ↔ Supabase PostgreSQL schema alignment  
+2. DRF API endpoints for CRUD operations  
+3. React ↔ Django JWT authentication flow  
+4. Quill.js content storage (Delta vs HTML)  
+5. Supabase RLS policy implementation  
+
+---
+
+## COMMON CHALLENGES (Anticipate & Solve)
+- **CORS Errors**: Debugging django-cors-headers configuration.  
+- **JWT Token Issues**: Token expiration handling, localStorage vs cookies.  
+- **Quill.js Content Rendering**: Displaying Delta format in React.  
+- **Supabase RLS Policies**: Writing rules for user-specific data access.  
+- **Docker Deployment**: Dependency management, build optimization.
+
+---
+
+## PROJECT MILESTONES
+1. ✅ [Done] Django project setup with Supabase DB connection  
+2. ⏳ [Current] Implement Note model + DRF API endpoints  
+3. [Next] React frontend scaffolding with Quill.js  
+4. [Future] Authentication implementation (JWT/Supabase)  
+5. [Future] Deployment to Railway/Netlify  
+
+---
+
+## LEARNING RESOURCES
+**Django/DRF**:  
+- Official Django Docs (https://docs.djangoproject.com/)  
+- DRF Tutorial: https://www.django-rest-framework.org/  
+
+**React**:  
+- React Beta Docs: https://react.dev/  
+- Quill.js React Integration Guide: https://www.npmjs.com/package/react-quill  
+
+**Supabase**:  
+- Supabase RLS Guide: https://supabase.com/docs/guides/auth/row-level-security  
+- Python Client Docs: https://supabase.com/docs/reference/python/introduction  
+
+---
+
+## HOW TO HELP ME
+- **Debugging**: Ask for error logs/context first before suggesting fixes.  
+- **Code Examples**: Prefer concise snippets over full-file examples.  
+- **Best Practices**: Highlight security/database optimization tips.  
+- **Decision Making**: Compare approaches (e.g., "Supabase Auth vs JWT: For your use case...").  
+
+- **Concept Explanations**: Use analogies for complex topics (e.g., "Django models are like...").  
