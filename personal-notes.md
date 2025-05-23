@@ -11,18 +11,33 @@ Info each notes would store:
 To summarize, your immediate next steps within the notes app are:
 Define the Note model in notes/models.py. [DONE]
 
-Initialize supabase
+Initialize supabase [DONE]
 Connecting via this guide:
 https://supabase.com/dashboard/project/hamiesrukmlsbfgpqpop/settings/api?showConnect=true
 
 
-Make migrations (python manage.py makemigrations notes).
+Make migrations (python manage.py makemigrations notes). [DONE]
 Prepare the changes (stage)
 - python manage.py makemigrations notes
 Apply these changes to your Supabase database (commit)
 - python manage.py migrate
  
-Migrate (python manage.py migrate).
+Migrate (python manage.py migrate). [DONE]
+
+Configuring Django REST Framework [DONE]
+-Basic URL SETUP for Note Model = 
+  Create the url in notes_backend\notes\urls.py
+  Connect it in notes_backend\notes_backend\urls.py
+
+Run the Django Development Server 'python manage.py runserver' [DONE]
+Test the API Endpoints [DONE]
+  Ternyata disini sudah bisa CRUD Dawg...
+
+Auth Using DRF
+  Atur disetting auth nya terlebih dahulu
+  tambahkan API di urls.py
+
+  djangorestframework-simplejwt for JWT -> Create superuser first
 
 -----INITIAL PLAN-------
 Set Up Django Backend & Supabase Database
