@@ -1,3 +1,19 @@
+notes_backend\notes
+-> responsible for everything related to managing notes
+
+Info each notes would store:
+1. Title
+2. Content of the notes
+3. Timestamps when it created
+4. Timestamps last updated
+5. Link to the note
+
+To summarize, your immediate next steps within the notes app are:
+Define the Note model in notes/models.py.
+Make migrations (python manage.py makemigrations notes).
+Migrate (python manage.py migrate).
+
+-----INITIAL PLAN-------
 Set Up Django Backend & Supabase Database
 Why Start Here: Your React frontend depends on a working API, and Django needs database connectivity first.
 

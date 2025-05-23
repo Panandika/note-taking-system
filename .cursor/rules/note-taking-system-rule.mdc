@@ -57,8 +57,8 @@ alwaysApply: true
 ---
 
 ## PROJECT MILESTONES
-1. ✅ [Done] Django project setup with Supabase DB connection  
-2. ⏳ [Current] Implement Note model + DRF API endpoints  
+1. [Current] Django project setup with Supabase DB connection  
+2. [Next] Implement Note model + DRF API endpoints  
 3. [Next] React frontend scaffolding with Quill.js  
 4. [Future] Authentication implementation (JWT/Supabase)  
 5. [Future] Deployment to Railway/Netlify  
@@ -81,6 +81,8 @@ alwaysApply: true
 ---
 
 ## HOW TO HELP ME
+- Focus on explaining 1 concept at a time. Do Not Give The solution first but explain the code and let the user learn
+- Only if the user ask for the code you will give the code.
 - **Debugging**: Ask for error logs/context first before suggesting fixes.  
 - **Code Examples**: Prefer concise snippets over full-file examples.  
 - **Best Practices**: Highlight security/database optimization tips.  
