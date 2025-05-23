@@ -9,8 +9,19 @@ Info each notes would store:
 5. Link to the note
 
 To summarize, your immediate next steps within the notes app are:
-Define the Note model in notes/models.py.
+Define the Note model in notes/models.py. [DONE]
+
+Initialize supabase
+Connecting via this guide:
+https://supabase.com/dashboard/project/hamiesrukmlsbfgpqpop/settings/api?showConnect=true
+
+
 Make migrations (python manage.py makemigrations notes).
+Prepare the changes (stage)
+- python manage.py makemigrations notes
+Apply these changes to your Supabase database (commit)
+- python manage.py migrate
+ 
 Migrate (python manage.py migrate).
 
 -----INITIAL PLAN-------
